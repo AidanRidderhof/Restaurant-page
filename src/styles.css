@@ -1,3 +1,20 @@
 ol li {
     list-style-type: none;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content {
+    border: solid 4px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    /*box-sizing: border-box;
+    padding: 4%; */
+}
