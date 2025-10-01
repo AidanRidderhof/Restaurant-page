@@ -17,10 +17,6 @@ export function displayHome() {
                 <li>Saturday: 7am - 2pm, 4pm - 8pm</li>
                 <li>Sunday: 7am - 2pm, 4pm - 8pm</li>
             </ol>
-        </div>
-        <div>
-            <h2>Location</h2>
-            <p>1018 Lafayette Blvd Fredericksburg, VA 22401</p>
         </div>`
 }
 
