@@ -1,4 +1,6 @@
-export const homepage = `<div>
+export function displayHome() {
+    const content = document.querySelector("#content")
+    content.innerHTML = `<div>
             <h1>Battlefield Restaurant</h1>
         </div>
         <div>
@@ -20,3 +22,5 @@ export const homepage = `<div>
             <h2>Location</h2>
             <p>1018 Lafayette Blvd Fredericksburg, VA 22401</p>
         </div>`
+}
+
